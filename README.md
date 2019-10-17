@@ -1,6 +1,7 @@
 # NGinx Let's Encrypt
 
 ```
-apt install certbot python-certbot-nginx
-certbot --nginx
+wget https://dl.eff.org/certbot-auto
+chmod a+x ./certbot-auto
+./certbot-auto --nginx
 ```
